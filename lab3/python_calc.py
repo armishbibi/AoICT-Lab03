@@ -14,6 +14,7 @@ def even_odd(n):
 def percentage(a,b):
     return (a/b)*100
 while True:
+    # Input from user keeps asking until user chooses to exit
     a=float(input("Enter first number: "))
     b=float(input("Enter second number: "))
     print("1. Addition")
@@ -27,6 +28,7 @@ while True:
     if c=='7':
         print("Exit")
         break
+    # Executes the corresponding function based on user's choice 
     if c=='1':
         print("Sum:",addition(a,b))
     elif c=='2':
